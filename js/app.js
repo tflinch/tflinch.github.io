@@ -28,7 +28,7 @@ navArr.forEach((element) => {
     menuItem.setAttribute('class', 'active');
   }
 
-  menuItem.setAttribute('href', element);
+  menuItem.setAttribute('href', `#${element}`);
   menuItem.textContent = element.slice(0, 1).toUpperCase() + element.slice(1);
 
   navbar.appendChild(menuItem);
