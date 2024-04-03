@@ -35,3 +35,57 @@ navArr.forEach((element) => {
 });
 
 document.querySelector('body').appendChild(header);
+
+//section
+
+const socialMediaArray = ['facebook', 'twitter', 'instagram', 'linkedin'];
+const section = document.createElement('section');
+section.setAttribute('class', 'home');
+section.setAttribute('id', 'home');
+const homeContentDiv = document.createElement('div');
+homeContentDiv.setAttribute('class', 'home-content');
+const h3Intro = document.createElement('h3');
+h3Intro.textContent = "Hello, It's Me";
+const h1Section = document.createElement('h1');
+h1Section.textContent = 'Tommy Flinch';
+const h3P = document.createElement('h3');
+h3P.textContent = "And I'm a ";
+const spanH3 = document.createElement('span');
+spanH3.textContent = 'Frontend Engineer';
+h3P.append(spanH3);
+const paragraph = document.createElement('p');
+paragraph.textContent =
+  'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorum voluptatibus quo natus ire sint ex voluptatem.';
+const socialMediaDiv = document.createElement('div');
+socialMediaDiv.setAttribute('class', 'social-media');
+
+socialMediaArray.forEach((element) => {
+  const socialItem = document.createElement('a');
+  socialItem.setAttribute('href', '#');
+  const icon = document.createElement('i');
+  icon.setAttribute('class', `bx bxl-${element}`);
+  socialItem.appendChild(icon);
+
+  socialMediaDiv.appendChild(socialItem);
+});
+
+const download = document.createElement('a');
+download.setAttribute('class', 'btn');
+download.textContent = 'Download CV';
+
+const homeImgDiv = document.createElement('div');
+const profileImg = document.createElement('img');
+homeImgDiv.setAttribute('class', 'home-img');
+profileImg.setAttribute('src', './images/personal-portfolio-pic.png');
+homeImgDiv.appendChild(profileImg);
+homeContentDiv.append(
+  h3Intro,
+  h1Section,
+  h3P,
+  paragraph,
+  socialMediaDiv,
+  download
+);
+section.append(homeContentDiv, homeImgDiv);
+
+document.querySelector('body').appendChild(section);
