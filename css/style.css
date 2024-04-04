@@ -390,6 +390,10 @@ body {
   .footer {
     padding: 2rem 3%;
   }
+
+  .portfolio {
+    padding-bottom: 7rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -443,5 +447,13 @@ body {
 
   .services h2 {
     margin-bottom: 3rem;
+  }
+
+  .portfolio h2 {
+    margin-bottom: 3rem;
+  }
+
+  .portfolio-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
