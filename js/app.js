@@ -16,6 +16,12 @@ menuIcon.classList.remove('bx-x');
 navbar.classList.remove('active');
 
 /*==================== scroll reveal ====================*/
+ScrollReveal({ reset: true, distance: '880px', duration: 2000, delay: 200 });
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .services-container', '.contact form', {
+  origin: 'bottom',
+});
+ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 /*==================== typed js ====================*/
 // const navArr = ['home', 'about', 'services', 'portfolio', 'contact'];
 
