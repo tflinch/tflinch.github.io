@@ -394,6 +394,9 @@ body {
   .portfolio {
     padding-bottom: 7rem;
   }
+  .contact {
+    min-height: 200px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -461,5 +464,32 @@ body {
 @media (max-width: 615px) {
   .portfolio-container {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .contact form .input-box input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .home-img img {
+    width: 90vw;
+  }
+  .about-img img {
+    width: 90vw;
+  }
+
+  .footer {
+    flex-direction: column-reverse;
+  }
+  .footer p {
+    text-align: center;
+    margin-top: 2rem;
   }
 }
