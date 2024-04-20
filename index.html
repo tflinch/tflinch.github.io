@@ -1,210 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Personal Portfolio</title>
-  <!-- box icons -->
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <!-- custom css -->
-  <link rel="stylesheet" href="./css/style.css">
-</head>
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-<body>
-
-  <!-- header design -->
-  <header class="header">
-    <a href="#" class="logo">Portfolio</a>
-    <i class='bx bx-menu' id="menu-icon"></i>
-    <nav class="navbar">
-      <a href="#home" class="active">Home</a>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <!-- home section design -->
-  <section class="home" id="home">
-    <div class="home-content">
-      <h3>Diving into Web Crafting</h3>
-      <h1>Tommy Flinch</h1>
-      <h3>Your End-to-End <span class="multiple-text"></span></h3>
-      <p>
-        Software engineer with a spark for for usable and scalable applications. I enjoy creating PoC's with design and response. Let's create innovate web apps with your <span class="multiple-text2"></span> in mind.
-      </p>
-      <div class="social-media">
-        <a href="#" target="_blank"><i class='bx bxl-github'></i></a>
-        <a href="#"><i class='bx bxl-twitter'></i></a>
-        <a href="#" target="_blank"><i class='bx bxl-instagram'></i></a>
-        <a href="#" target="_blank"><i class='bx bxl-linkedin'></i></a>
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Diving into Web Crafting</h3>
+        <h1>Tommy Flinch</h1>
+        <h3>Your End-to-End <span class="multiple-text"></span></h3>
+        <p>
+          Software engineer with a spark for for usable and scalable
+          applications. I enjoy creating PoC's with design and response. Let's
+          create innovate web apps with your
+          <span class="multiple-text2"></span> in mind.
+        </p>
+        <div class="social-media">
+          <a href="#" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#" target="_blank"><i class="bx bxl-instagram"></i></a>
+          <a href="#" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <a href="#" class="btn" target="_blank">Download Resume</a>
       </div>
-      <a href="#" class="btn" target="_blank">Download Resume</a>
-    </div>
 
-    <div class="home-img">
-      <img src="./images/personal-portfolio-pic.png" alt="">
-    </div>
+      <div class="home-img">
+        <img src="./images/personal-portfolio-pic.png" alt="" />
+      </div>
+    </section>
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./images/personal-portfolio-pic.png" alt="" />
+      </div>
 
-  </section>
-  <!-- about section design -->
-  <section class="about" id="about">
-    <div class="about-img">
-      <img src="./images/personal-portfolio-pic.png" alt="">
-    </div>
-
-    <div class="about-content">
-      <h2 class="heading">About <span>Me</span></h2>
-      <h3>Frontend Engineer</h3>
-      <p>I'm a web developer and designer driven to build impactful digital experiences. With a solid foundation
-        in JavaScript, HTML, CSS, ReactJS, NodeJS, MongoDB, Python, and Django, I have the versatility to craft dynamic
-        full-stack applications. My commitment extends into User Experience, where I use Figma for UX research and
-        prototyping, ensuring every project is not only visually appealing but also user-friendly.<br>
-        My aim is to leverage technology to innovate and design solutions for a better future. By marrying technical
-        skills with a passion for detailed, empathetic design, I strive to create products that resonate with users and
-        drive positive change. Let’s work together to transform ideas into reality!
-      </p>
-      <a href="#" class="btn">Read More</a>
-    </div>
-  </section>
-  <!-- services section design -->
-  <section class="services" id="services">
-    <h2 class="heading">My <span>Services</span></h2>
-
-    <div class="services-container">
-      <div class="services-box">
-        <i class='bx bx-code-alt'></i>
-        <h3>Fullstack Development</h3>
-        <p>Combine front-end elegance with back-end power, deliver seamless,
-          scalable, and secure web applications and sites tailored to meet your business needs and enhance user
-          engagement. </p>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Engineer</h3>
+        <p>
+          I'm a web developer and designer driven to build impactful digital
+          experiences. With a solid foundation in JavaScript, HTML, CSS,
+          ReactJS, NodeJS, MongoDB, Python, and Django, I have the versatility
+          to craft dynamic full-stack applications. My commitment extends into
+          User Experience, where I use Figma for UX research and prototyping,
+          ensuring every project is not only visually appealing but also
+          user-friendly.<br />
+          My aim is to leverage technology to innovate and design solutions for
+          a better future. By marrying technical skills with a passion for
+          detailed, empathetic design, I strive to create products that resonate
+          with users and drive positive change. Let’s work together to transform
+          ideas into reality!
+        </p>
         <a href="#" class="btn">Read More</a>
       </div>
+    </section>
+    <!-- services section design -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
 
-      <div class="services-box">
-        <i class='bx bx-code-alt'></i>
-        <h3>Digital Marketing</h3>
-        <p>Craft user-centric experiences with intuitive design, focusing on UX research and prototyping to create
-          interfaces that are not only visually appealing but also highly functional and accessible. </p>
-        <a href="#" class="btn">Read More</a>
-      </div>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Fullstack Development</h3>
+          <p>
+            Combine front-end elegance with back-end power, deliver seamless,
+            scalable, and secure web applications and sites tailored to meet
+            your business needs and enhance user engagement.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
 
-      <div class="services-box">
-        <i class='bx bx-code-block'></i>
-        <h3>Digital Marketing</h3>
-        <p>Leverage cutting-edge digital marketing strategies to amplify your brand's online presence,
-          drive growth through customized campaigns that maximize visibility and
-          return on investment.</p>
-        <a href="#" class="btn">Read More</a>
-      </div>
-    </div>
-  </section>
-  <!-- portfolio section design -->
-  <section class="portfolio" id="portfolio">
-    <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Digital Marketing</h3>
+          <p>
+            Craft user-centric experiences with intuitive design, focusing on UX
+            research and prototyping to create interfaces that are not only
+            visually appealing but also highly functional and accessible.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
 
-    <div class="portfolio-container">
-
-      <div class="portfolio-box" id="portfolio-1">
-        <img src="./images/portfolio-1.png" alt="">
-        <div class="portfolio-layer">
-          <h4>Ecollab (UX)</h4>
-          <p>Designed an app prototype that utilizes gamification to tackle the environmental crisis and encourage sustainable
-            daily practices.</p>
-          <a href="https://www.figma.com/proto/6je6lJJAsvbPpZsl7zZPXf/Figmathon-2022-Prototype?page-id=0%3A1&type=design&node-id=40-2055&viewport=171%2C917%2C0.06&t=ohfJr9ps6KMyVyND-1&scaling=scale-down&starting-point-node-id=40%3A13&mode=design" target="_blank"><i class='bx bx-link-external'></i></a>
+        <div class="services-box">
+          <i class="bx bx-code-block"></i>
+          <h3>Digital Marketing</h3>
+          <p>
+            Leverage cutting-edge digital marketing strategies to amplify your
+            brand's online presence, drive growth through customized campaigns
+            that maximize visibility and return on investment.
+          </p>
+          <a href="#" class="btn">Read More</a>
         </div>
       </div>
+    </section>
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
 
-      <div class="portfolio-box" id="portfolio-2">
-        <img src="./images/portfolio-2.png" alt="">
-        <div class="portfolio-layer">
-          <h4>Web Design</h4>
-          <p>Designed a personal portfolio page and deployed through Github
-            using HTML, CSS, and JavaScript.</p>
-          <a href="#"><i class='bx bx-link-external'></i></a>
+      <div class="portfolio-container">
+        <div class="portfolio-box" id="portfolio-1">
+          <img src="./images/portfolio-1.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>The Last Icey</h4>
+            <p>
+              For my first GA SEI project we were tasked with creating
+              interactive reponsive game. The Last Icey pop needs to the last
+              working fridge. Play the flappy bird inpirsed survial now!
+            </p>
+            <a href="https://tflinch.github.io/The-Last-Icey/" target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box" id="portfolio-2">
+          <img src="./images/portfolio-2.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Designed a personal portfolio page and deployed through Github
+              using HTML, CSS, and JavaScript.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./images/portfolio-3.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+              ipsam expedita fuga debitis quo porro.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./images/portfolio-4.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+              ipsam expedita fuga debitis quo porro.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./images/portfolio-5.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+              ipsam expedita fuga debitis quo porro.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./images/portfolio-6.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+              ipsam expedita fuga debitis quo porro.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
         </div>
       </div>
+    </section>
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
 
-      <div class="portfolio-box">
-        <img src="./images/portfolio-3.png" alt="">
-        <div class="portfolio-layer">
-          <h4>Web Design</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Amet, ipsam expedita fuga debitis quo porro.</p>
-          <a href="#"><i class='bx bx-link-external'></i></a>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" name="" id="" placeholder="Full Name" />
+          <input type="email" name="" id="" placeholder="Email Address" />
         </div>
-      </div>
-      <div class="portfolio-box">
-        <img src="./images/portfolio-4.png" alt="">
-        <div class="portfolio-layer">
-          <h4>Web Design</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Amet, ipsam expedita fuga debitis quo porro.</p>
-          <a href="#"><i class='bx bx-link-external'></i></a>
+
+        <div class="input-box">
+          <input type="number" name="" id="" placeholder="Mobile Number" />
+          <input type="text" name="" id="" placeholder="Email Subject" />
         </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by Yifu-Jensen Dong | All Rights Reserved.</p>
       </div>
-
-      <div class="portfolio-box">
-        <img src="./images/portfolio-5.png" alt="">
-        <div class="portfolio-layer">
-          <h4>Web Design</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Amet, ipsam expedita fuga debitis quo porro.</p>
-          <a href="#"><i class='bx bx-link-external'></i></a>
-        </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
       </div>
+    </footer>
 
-      <div class="portfolio-box">
-        <img src="./images/portfolio-6.png" alt="">
-        <div class="portfolio-layer">
-          <h4>Web Design</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Amet, ipsam expedita fuga debitis quo porro.</p>
-          <a href="#"><i class='bx bx-link-external'></i></a>
-        </div>
-      </div>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-    </div>
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-  </section>
-  <!-- contact section design -->
-  <section class="contact" id="contact">
-    <h2 class="heading">Contact <span>Me</span></h2>
-
-    <form action="#">
-      <div class="input-box">
-        <input type="text" name="" id="" placeholder="Full Name">
-        <input type="email" name="" id="" placeholder="Email Address">
-      </div>
-
-      <div class="input-box">
-        <input type="number" name="" id="" placeholder="Mobile Number">
-        <input type="text" name="" id="" placeholder="Email Subject">
-      </div>
-      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-      <input type="submit" value="Send Message" class="btn">
-    </form>
-  </section>
-  <!-- footer design -->
-  <footer class="footer">
-    <div class="footer-text">
-      <p>Copyright &copy; 2024 by Yifu-Jensen Dong | All Rights Reserved.</p>
-    </div>
-    <div class="footer-iconTop">
-      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
-    </div>
-  </footer>
-
-  <!-- scroll reveal -->
-  <script src="https://unpkg.com/scrollreveal"></script>
-
-  <!-- typed js -->
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
-  <!-- custom js -->
-  <script src="./js/app.js"></script>
-</body>
-
+    <!-- custom js -->
+    <script src="./js/app.js"></script>
+  </body>
 </html>
